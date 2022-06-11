@@ -50,3 +50,33 @@
   text-decoration: underline;
   color: #363a45 !important;
 }
+
+@media (max-width: 991px) {
+  .foot-header {
+    margin-top: 0;
+  }
+
+  .img-foot {
+    width: 90px !important;
+  }
+
+  .foot-list {
+    margin: 0;
+  }
+
+  .foot-wrapper .v-expansion-panel {
+    background-color: #eaeff2 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .foot-logo {
+    padding: 0 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .foot-logo {
+    padding: 0 12px;
+  }
+}
