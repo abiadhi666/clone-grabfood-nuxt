@@ -1,0 +1,202 @@
+.tabs-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.tabs-wrapper {
+  box-shadow: 0 4px 6px 0 rgb(28 28 28 / 6%);
+  background-color: #fff;
+  position: sticky;
+  top: 80px;
+  z-index: 1;
+}
+
+.card-menu-wrapper {
+  background-color: #f7f7f7;
+}
+
+.card-menu-wrapper .container {
+  padding: 0 !important;
+}
+
+.card-menu-wrapper .category-name {
+  padding: 72px 0 24px;
+  font-size: 2.57142857rem;
+  line-height: 1.33333333;
+  font-weight: 500;
+  color: #1c1c1c;
+  padding-left: 12px;
+}
+
+.card-menu {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 24px;
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+}
+
+.card-menu-item {
+  display: flex;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card-menu-item .card-menu-image {
+  max-width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+
+.card-menu-item .card-menu-info {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+.card-menu-item .card-menu-name {
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+.card-menu-name h3 {
+  font-size: 1.14285714rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1c1c1c;
+  word-break: break-word;
+}
+
+.card-menu-name h6 {
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-weight: 400;
+  color: #9a9a9a;
+  -webkit-box-flex: 1;
+  flex: 1;
+  margin-top: 6px;
+  word-break: break-word;
+}
+
+.card-menu-info .card-menu-action {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-menu-price-discount .card-menu-discount {
+  margin-top: 12px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  word-break: break-word;
+}
+
+.card-menu-price-discount .discount-box {
+  border-radius: 2px;
+  background-color: rgba(243, 134, 33, 0.3);
+  margin-right: 4px;
+  padding: 2px;
+}
+
+.card-menu-price-discount .discount-text {
+  padding: 2px;
+  line-height: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #f38621;
+  opacity: 1;
+}
+
+.card-menu-price-discount h6 {
+  font-size: 0.85714286rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #b7b7b7;
+}
+
+.card-menu-price-discount .card-menu-price {
+  display: flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+}
+
+.card-menu-price-discount .discounted-price {
+  font-size: 1.14285714rem;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #1c1c1c;
+}
+
+.card-menu-action .card-menu-button {
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  background-color: #00b14f;
+  border-radius: 2px;
+  margin-left: auto;
+}
+
+.card-menu-button .btn-plus {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.card-menu-button .btn-plus::before,
+.card-menu-button .btn-plus::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+}
+
+.card-menu-button .btn-plus::before {
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  margin-left: -2px;
+}
+
+.card-menu-button .btn-plus::after {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  margin-top: -2px;
+}
+
+.note-bottom {
+  font-size: 0.85714286rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #676767;
+  padding: 0 12px 24px;
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 991px) {
+  .tabs-wrapper {
+    top: 146px;
+    padding: 0 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tabs-wrapper {
+    top: 88px;
+    padding: 0 12px;
+  }
+}

@@ -1,0 +1,125 @@
+.header-main {
+  position: sticky;
+  top: 0;
+  background-color: #fff !important;
+  z-index: 1;
+}
+
+header {
+  height: 88px !important;
+}
+
+.img-logo {
+  width: 142px;
+  height: 50px;
+}
+
+.v-toolbar__content,
+.v-toolbar__extension {
+  height: 88px !important;
+  padding: 0 !important;
+}
+
+.appbar-wrapper .input-search {
+  max-width: 360px;
+  height: 40px;
+  margin: 0 50px;
+}
+
+.appbar-wrapper .btn-group {
+  margin: 0 6px;
+}
+
+.appbar-wrapper .btn-group .btn {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f0efef;
+  background-color: #fff;
+  padding: 0 12px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #676767 !important;
+}
+
+@media (max-width: 991px) {
+  .v-toolbar__content,
+  .v-toolbar__extension {
+    justify-content: space-between;
+  }
+
+  .header-wrapper {
+    border-bottom: 1px solid #f0efef;
+    padding: 0 36px;
+  }
+
+  .input-search {
+    display: flex;
+    align-items: center;
+    padding: 0 36px;
+    height: 60px;
+  }
+
+  .input-search .v-input {
+    font-size: 14px;
+  }
+
+  .input-search .v-input__slot {
+    min-height: 40px !important;
+  }
+
+  .input-search .v-input__prepend-inner {
+    margin-top: 8px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .v-toolbar__content,
+  .v-toolbar__extension {
+    height: 48px !important;
+  }
+
+  header {
+    height: 48px !important;
+  }
+
+  .img-logo {
+    width: 90px;
+    height: 31.5px;
+  }
+
+  .header-wrapper {
+    padding: 0 12px;
+  }
+
+  .input-search {
+    padding: 0 12px;
+  }
+
+  .btn-cart {
+    display: none;
+  }
+
+  .appbar-wrapper .btn-group .btn {
+    height: 28px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .input-search {
+    height: 40px;
+  }
+
+  .input-search .v-input {
+    font-size: 0.85714286rem;
+  }
+
+  .input-search .v-input__slot {
+    min-height: 32px !important;
+  }
+
+  .input-search .v-input__prepend-inner {
+    margin-top: 4px !important;
+  }
+}
